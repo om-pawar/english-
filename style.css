@@ -1,0 +1,115 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+.main-menubt a{
+    bottom: 0%;
+    position: fixed;
+
+}
+
+body{
+    background-color: #fff1a4;
+    border: #000;
+    
+}
+
+.main-menu section article h1{
+    margin: 2%;
+    margin-top: 0%;
+    margin-left: 38.5%;
+}
+
+.main-menu section article h3{
+    margin: 2%;
+    margin-top: -1%;
+    margin-left: 31%;
+    font-family: cursive;
+}
+
+.main-menu section .logo-clg img{
+    width: 300px;
+    height: 200px;
+    margin-top: 0px;
+    margin-left: 40%;
+}
+
+.topics ul{
+    list-style: none;
+    height: 100px; width: 100%;
+    top: 20%;
+    margin-left: 0%;
+    background: rgb(90, 45, 45);
+    display: flex;
+    justify-content: space-around;
+}
+
+.topics ul li{
+    margin: 10px;
+    padding: 2px;
+    margin-top: 2.5%;
+}
+
+.topics li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.topics ul li a:hover{
+    background: white;
+    color:rgb(255, 116, 213)
+}
+
+.data section{
+    height: 50vh;
+    width:  150vh;
+}
+.data section ul h2{
+  font-style: italic;
+}
+.data section ul li{
+    font-style: oblique;
+  }
+
+#Prose{
+    background: linear-gradient( rgb(255, 255, 255) 10%,rgb(241, 90, 19));
+    font-size: 18px;
+    
+}
+#Poetry{
+    background: linear-gradient( rgb(255, 255, 255) 10%,rgb(27, 255, 129));
+    font-size: 18px;
+}
+#Writing-Skills{
+    background: linear-gradient( rgb(255, 255, 255) 10%,rgb(24, 73, 85));
+    font-size: 18px;
+}
+#Genre-Novel{
+    background: linear-gradient(white 10%,rgb(167, 7, 68));
+    font-size: 18px;
+}
+#Unseen-Passage{
+    background: linear-gradient(white 10%,rgb(249, 252, 92));
+}
+#Letter-Writting{
+    background: linear-gradient(white 10%,rgba(47, 61, 255, 0.685));
+}
+#Blog-Writting{
+    background: linear-gradient(white 10%,rgba(224, 28, 28, 0.555));
+}
+#Eassy-Writting{
+    background: linear-gradient(white 10%,purple );
+}
+
+#Story-Writting{
+    background: linear-gradient(white 10%,rgba(204, 38, 190, 0.486) );
+}
+#Dialogue-Writting{
+    background: linear-gradient(white 10%, green);
+}
+#Previous-Year-Question-Papers{
+    background: linear-gradient(white 10%,rgb(32, 8, 117) );
+}
