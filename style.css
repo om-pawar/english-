@@ -4,6 +4,7 @@ html{
 }
 
 .main-menubt a{
+    right: 0%;
     bottom: 0%;
     position: fixed;
 
